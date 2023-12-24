@@ -1,0 +1,73 @@
+:root{
+
+    --font-primary:'Inter', sans-serif;
+
+    --font-size-xxs:12px;
+    --font-size-xs:14px;
+    --font-size-sm:16px;
+    --font-size-md:18px;
+    --font-size-lg:20px;
+    --font-size-xl:24px;
+    --font-size-xxl:55px;
+    --font-size-xxxl:80px;
+    --font-size-title:40px;
+    --font-size-heading:120px;
+    --font-size-big-heading:230px;
+
+    @media screen and (max-width:768px) {
+        --font-size-xxs:10px;
+        --font-size-xs:12px;
+        --font-size-sm:14px;
+        --font-size-md:15px;
+        --font-size-lg:16px;
+        --font-size-xl:20px;
+        --font-size-xxl:25px;
+        --font-size-xxxl:30px;
+        --font-size-title:30px;
+        --font-size-heading:45px;
+        --font-size-big-heading:60px;
+    }
+    @media screen and (min-width:768px) and (max-width:1200px) {
+        --font-size-xxs:12px;
+        --font-size-xs:14px;
+        --font-size-sm:16px;
+        --font-size-md:18px;
+        --font-size-lg:20px;
+        --font-size-xl:24px;
+        --font-size-xxl:30px;
+        --font-size-xxxl:40px;
+        --font-size-title:40px;
+        --font-size-heading:65px;
+        --font-size-big-heading:100px;
+    }
+
+
+    --line-normal:normal;
+    --line-height-sm:24px;
+    --line-height-md:26px;
+    --line-height-mmd:30px;
+    --line-height-lg:40px;
+    --line-height-xl:103px;
+    --line-height-xxl:135px;
+
+    --rounded-xs:3px;
+    --rounded-sm:5px;
+    --rounded-md:10px;
+    --rounded-lg:20px;
+
+    --specing-sm:10px;
+    --specing-md:20px;
+    --specing-lg:40px;
+    --specing-xl:50px;
+
+    --color-white: #FFF;
+    --color-light: #DFDBE8;
+    --color-light-gray: #DFDBE8;
+    --color-dark-gray: #334356;
+    --color-gray: #595c5f;
+    --color-dark: #080825;
+    --color-primary: #D32053;
+    --color-secondary: #460BC6;
+    --color-black: #000000;
+
+}
