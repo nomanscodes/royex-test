@@ -243,12 +243,30 @@
           max-width: none;
       }
       &__bottom{
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        overflow: hidden;
+        overflow-x: auto;
+
+        &::-webkit-scrollbar{
+          display: none;
+          width: 0;
+          height: 0;
+        }
            img{
-            width: 30px;
+            width: 40px;
+            height: 40px;
            }
           svg{
-            width: 20px;
+            display: none;
           }
+      }
+      &__bottom-content{
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        gap: 10px;
       }
     }
 

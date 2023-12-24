@@ -119,6 +119,12 @@
             height: auto;
             padding:var(--specing-sm);
             box-shadow: 1px 1px 2px rgb(230, 227, 227);
+            &__content{
+                padding:0;
+                p{
+                    line-height: 150%;
+                }
+            }
         }  
     }
 }
