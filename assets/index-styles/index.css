@@ -2011,6 +2011,9 @@ section {
   }
 }
 
+.rt-winnerlist-and-map {
+  overflow: hidden;
+}
 .rt-winnerlist-and-map__content {
   width: 100%;
   position: relative;
@@ -2034,8 +2037,8 @@ section {
     left: 0;
     top: 0;
     bottom: 30%;
-    width: 460.715px;
-    height: 460.715px;
+    width: 360px;
+    height: 360px;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1200px) {
@@ -2214,6 +2217,14 @@ section {
   align-items: center;
   justify-content: space-between;
   padding: var(--specing-sm) 0px;
+}
+.rt-video__bottom svg {
+  width: 40px;
+  height: 40px;
+}
+.rt-video__bottom img {
+  width: 65px;
+  height: 65px;
 }
 @media screen and (max-width: 768px) {
   .rt-video {
@@ -2818,6 +2829,7 @@ section {
 .rt-app-download {
   height: 825px;
   margin-top: 100px;
+  overflow: hidden;
 }
 .rt-app-download__bg-shodow {
   width: 100%;
@@ -2913,7 +2925,7 @@ section {
   }
   .rt-app-download__vactor {
     position: absolute;
-    left: 20%;
+    left: 0%;
     bottom: 1%;
     width: 300px;
     height: 300px;

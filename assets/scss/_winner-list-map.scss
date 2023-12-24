@@ -2,6 +2,7 @@
 @import "./variable";
 
 .rt-winnerlist-and-map {
+  overflow: hidden;
   &__content {
     width: 100%;
     position: relative;
@@ -26,8 +27,8 @@
       left: 0;
       top: 0;
       bottom: 30%;
-      width: 460.715px;
-      height: 460.715px;
+      width: 360px;
+      height: 360px;
     }
   }
   @media screen and (min-width:768px) and (max-width:1200px) {
@@ -215,6 +216,15 @@
         align-items: center;
         justify-content: space-between;
         padding: var(--specing-sm) 0px;
+
+        svg{
+          width: 40px;
+          height: 40px;
+        }
+        img{
+          width: 65px;
+          height: 65px;
+        }
     }
 
     @media screen and (max-width:768px) {
